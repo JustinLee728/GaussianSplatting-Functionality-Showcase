@@ -13,3 +13,5 @@ Video Showcase: https://www.youtube.com/watch?v=rV2dDKF99E0
 ​Team Members: Justin Lee, Antony Zhao, Koa Lee, Stanley (Seung-Hyun) Kwon
 
 (This was tested on Unity Version 2022.3.16f1)
+
+Credits: Utilized the tool developed here in order to import Gaussian Splat models directly into Unity: https://github.com/aras-p/UnityGaussianSplatting
