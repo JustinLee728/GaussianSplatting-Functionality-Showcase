@@ -4,6 +4,7 @@ You may need to switch around the models in order to see correct results.
 
 
 We utilized Gaussian Splatting technology and incorporated it within Unity to observe how functional it would be for game design and simulations at its current point in development.
+
 Writeup for this project is located here: https://cal-cs184-student.github.io/hw-webpages-sp24-Miratari/final-report/index.html
 Video Showcase: https://www.youtube.com/watch?v=rV2dDKF99E0
 
