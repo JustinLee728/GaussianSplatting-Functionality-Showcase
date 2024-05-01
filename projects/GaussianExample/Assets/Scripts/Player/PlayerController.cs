@@ -56,7 +56,11 @@ public class PlayerController : MonoBehaviour
 	private void FixedUpdate() 
 	{
 		movementDirection = cameraTransform.forward * forwardInput + cameraTransform.right * rightInput;
-		cc_Rb.AddForce(movementDirection * m_Speed * 5f, ForceMode.Force);
+		if (Input.GetKeyDown("space"))	{
+			Debug.Log("jump");
+			movementDirection += new Vector3(0, 20f, 0);
+		}
+		cc_Rb.AddForce(movementDirection * m_Speed * 2f, ForceMode.Force);
 
 		/*if (forwardInput == 0 && rightInput == 0)
 		{
